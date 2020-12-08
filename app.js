@@ -23,7 +23,6 @@ let movement = () =>{
       innerBox.classList.remove('top');
       count = (count+1)%4;
    }
-   console.log(count);
 }
 
 box.addEventListener('click', movement)
